@@ -5,6 +5,7 @@ An interactive Wordle solver and benchmarking environment for comparing heuristi
 ## Overview
 
 The project uses Wordle as a sandbox for practical AI search techniques — constraint propagation, candidate filtering, frequency heuristics, and entropy-based information gain — and provides a benchmarking framework to evaluate each strategy quantitatively rather than just anecdotally.
+
 ![Home](images/index.png)
 
 ## Features
@@ -32,6 +33,8 @@ The notebook includes a benchmarking harness that runs each strategy over hundre
 - Average guesses to solve
 - Success rate
 - Average runtime per game
+
+![Benchmark](images/benchmark.png)
 
 This provides a direct, repeatable comparison between strategies rather than relying on a handful of manual trials.
 
